@@ -4,6 +4,7 @@ b=2
 c= a*b
 print(c)
 print("hello world")
+
 # make a calculator
 def add(x, y):
     return x + y
@@ -24,7 +25,7 @@ def calculator():
     
     choice = input("Enter choice (1/2/3/4): ")
     
-    if choice in ('1','2','3 , '4' ):
+    if choice in ('1','2','3', '4' ):
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
         
@@ -41,3 +42,10 @@ def calculator():
 if __name__ == "__main__":
     calculator()    
     
+
+
+print("hello world, this is a test from Krishna")
+print("This is a test for the GitHub Actions workflow.")
+print("This is a test for the GitHub Actions workflow, with a change.")
+
+
